@@ -9,7 +9,7 @@
   <meta property="og:title" content="Zhangjiajie Local Eats — Taste the Real Zhangjiajie">
   <meta property="og:description" content="Eat like a local in Zhangjiajie. Real restaurant picks from real locals, verified by travelers.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#0a0b10">
+  <meta name="theme-color" content="#FAFAF7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,10 @@
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <span class="hero-badge">🏔️ By Zhangjiajie Locals</span>
+      <span class="hero-badge">
+        <svg class="icon-svg" viewBox="0 0 24 24"><path d="M8 21l4-10 4 10M3 21l4.5-14L12 11l4.5-4L21 21"/></svg>
+        By Zhangjiajie Locals
+      </span>
       <h1 class="hero-title">
         Taste the <span class="highlight">Real Zhangjiajie.</span>
       </h1>
@@ -46,13 +49,16 @@
   <!-- ===== TRUST BAR ===== -->
   <section class="trust-bar" data-section>
     <div class="trust-item">
-      <span class="icon">✅</span> 100% Independent
+      <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      100% Independent
     </div>
     <div class="trust-item">
-      <span class="icon">🏠</span> From Real Locals
+      <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      From Real Locals
     </div>
     <div class="trust-item">
-      <span class="icon">⭐</span> Tourist Verified
+      <svg class="icon-svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Tourist Verified
     </div>
   </section>
 
@@ -61,21 +67,27 @@
     <h2>How This Works</h2>
     <div class="how-steps">
       <div class="how-step">
-        <div class="step-icon">👨‍👩‍👧</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
         <div class="step-info">
           <h4>Picked by Locals</h4>
           <p>Every restaurant is a place we'd take our own family. No tourist traps.</p>
         </div>
       </div>
       <div class="how-step">
-        <div class="step-icon">🌍</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
         <div class="step-info">
           <h4>Verified by Travelers</h4>
           <p>Real feedback from international visitors who tried these spots.</p>
         </div>
       </div>
       <div class="how-step">
-        <div class="step-icon">🚫</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
         <div class="step-info">
           <h4>Zero Commercial Ties</h4>
           <p>We have NO business relationship with any restaurant listed here.</p>
@@ -87,7 +99,6 @@
   <!-- ===== ALL RECOMMENDATIONS ===== -->
   <section data-section>
     <div class="section-header animate-on-scroll">
-      <span class="emoji-divider">🍜</span>
       <h2>Our Picks</h2>
       <p>6 must-try spots hand-picked by Zhangjiajie locals</p>
       <div class="section-divider"></div>
@@ -99,7 +110,7 @@
       <article class="food-card animate-on-scroll" id="card-three-pot">
         <div class="food-card-image">
           <img src="images/card1.webp" alt="Sizzling Three-Pot Stew with smoked pork and chili" loading="lazy">
-          <span class="card-badge">🏆 #1 Must-Try</span>
+          <span class="card-badge">#1 Must-Try</span>
           <span class="meal-type">Lunch / Dinner</span>
         </div>
         <div class="food-card-body">
@@ -111,11 +122,23 @@
             <strong>三下锅 (Sān Xià Guō)</strong> — Zhangjiajie's signature dish. A sizzling dry wok of smoked pork belly, tripe, and fresh meat in a bold, spicy-fragrant sauce. The smokiness from the cured meat is unforgettable. Li Hanhan's version is beloved for its generous portions and authentic flavor.
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=李憨憨三下锅+张家界" target="_blank" class="meta-tag nav-link" title="永定区官黎坪街道新松机器人欢乐城1幢1层S107、S108、S109"><span class="icon">🗺️</span> 永定区新松机器人欢乐城1层</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥50-80 (~$7-11)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 11:00-21:00</span>
+            <a href="https://uri.amap.com/search?keyword=李憨憨三下锅+张家界" target="_blank" class="meta-tag nav-link" title="永定区官黎坪街道新松机器人欢乐城1幢1层S107、S108、S109">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区新松机器人欢乐城1层
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥50-80 (~$7-11)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              11:00-21:00
+            </span>
           </div>
-          <div class="spice-level">🌶️🌶️🌶️ Spicy — ask for 微辣 (wēi là) for mild</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot"></span><span class="spice-dot"></span></span>
+            Spicy — ask for 微辣 (wēi là) for mild
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"Li Hanhan's is the real deal. Generous portions, bold flavors, no shortcuts. This is the three-pot stew we grew up with."</p>
@@ -133,7 +156,7 @@
       <article class="food-card animate-on-scroll" id="card-drum-skin">
         <div class="food-card-image">
           <img src="images/card2.webp" alt="Stir-fried drum skin tripe with chili and garlic" loading="lazy">
-          <span class="card-badge">❤️ Local Favorite</span>
+          <span class="card-badge">Local Favorite</span>
           <span class="meal-type">Lunch / Dinner</span>
         </div>
         <div class="food-card-body">
@@ -145,11 +168,23 @@
             <strong>打鼓皮 (Dǎ Gǔ Pí)</strong> — A beloved Zhangjiajie specialty! Crispy, chewy strips of ox tripe stir-fried with fresh chili, garlic, and local spices. The texture is addictive — crunchy on the outside, tender inside. Fat Aunt's version is the local gold standard.
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=北站胖嫂打鼓皮+张家界" target="_blank" class="meta-tag nav-link"><span class="icon">🗺️</span> 永定区西溪坪街道打谷台民安2期</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥40-60 (~$6-8)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 11:00-21:00</span>
+            <a href="https://uri.amap.com/search?keyword=北站胖嫂打鼓皮+张家界" target="_blank" class="meta-tag nav-link">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区西溪坪街道打谷台民安2期
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥40-60 (~$6-8)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              11:00-21:00
+            </span>
           </div>
-          <div class="spice-level">🌶️🌶️🌶️ Spicy — the chili enhances the crispy texture</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot"></span><span class="spice-dot"></span></span>
+            Spicy — the chili enhances the crispy texture
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"打鼓皮 is THE Zhangjiajie snack. Fat Aunt does it best — perfectly crispy every time. A perfect pairing with cold beer!"</p>
@@ -167,7 +202,7 @@
       <article class="food-card animate-on-scroll" id="card-rice-noodles">
         <div class="food-card-image">
           <img src="images/card3.webp" alt="Hunan-style rice noodles with rich broth and toppings" loading="lazy">
-          <span class="card-badge">🌅 Breakfast King</span>
+          <span class="card-badge">Breakfast King</span>
           <span class="meal-type">Breakfast</span>
         </div>
         <div class="food-card-body">
@@ -179,11 +214,23 @@
             <strong>湖南米粉 (Húnán Mǐfěn)</strong> — Authentic Hunan-style rice noodles in a rich, slow-simmered broth with your choice of toppings. Liu Longzi is a legendary name in Zhangjiajie — the broth is cooked for hours and the noodles are perfectly silky. Get there early, locals queue up before dawn.
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=刘聋子粉馆+张家界" target="_blank" class="meta-tag nav-link"><span class="icon">🗺️</span> 永定区回龙路商业步行街1094号</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥10-18 (~$1.5-3)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 6:00-14:00</span>
+            <a href="https://uri.amap.com/search?keyword=刘聋子粉馆+张家界" target="_blank" class="meta-tag nav-link">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区回龙路商业步行街1094号
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥10-18 (~$1.5-3)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              6:00-14:00
+            </span>
           </div>
-          <div class="spice-level">🌶️ Mild — add chili oil yourself at the table</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot empty"></span><span class="spice-dot empty"></span></span>
+            Mild — add chili oil yourself at the table
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"Liu Longzi is a Zhangjiajie institution. If you don't eat rice noodles for breakfast here, did you even visit?"</p>
@@ -201,7 +248,7 @@
       <article class="food-card animate-on-scroll" id="card-hunan-cuisine">
         <div class="food-card-image">
           <img src="images/card4.webp" alt="Authentic Hunan home-style dishes with rich flavors" loading="lazy">
-          <span class="card-badge">🎭 Hunan Home Cooking</span>
+          <span class="card-badge">Home Cooking</span>
           <span class="meal-type">Lunch / Dinner</span>
         </div>
         <div class="food-card-body">
@@ -213,11 +260,23 @@
             <strong>湘菜 (Xiāng Cài)</strong> — Authentic Hunan home-style cooking at its finest. Think wok-fired pork with smoked chili, stir-fried seasonal greens, steamed fish head — all bursting with bold, rustic flavors. Old Village serves the kind of food Hunan grandmas are proud of. No frills, just incredible taste.
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=老农村家常菜馆+张家界" target="_blank" class="meta-tag nav-link"><span class="icon">🗺️</span> 永定区回龙路东门巷10号</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥40-80 (~$6-11)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 10:30-21:00</span>
+            <a href="https://uri.amap.com/search?keyword=老农村家常菜馆+张家界" target="_blank" class="meta-tag nav-link">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区回龙路东门巷10号
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥40-80 (~$6-11)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              10:30-21:00
+            </span>
           </div>
-          <div class="spice-level">🌶️🌶️🌶️ Spicy — real Hunan heat, ask for 微辣 if needed</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot"></span><span class="spice-dot"></span></span>
+            Spicy — real Hunan heat, ask for 微辣 if needed
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"This is real Hunan cooking — the kind you get at a local family's dinner table. Every dish tastes like home."</p>
@@ -235,7 +294,7 @@
       <article class="food-card animate-on-scroll" id="card-cold-noodles">
         <div class="food-card-image">
           <img src="images/card5.webp" alt="Refreshing cold noodles with chili oil and toppings" loading="lazy">
-          <span class="card-badge">☀️ Summer Essential</span>
+          <span class="card-badge">Summer Essential</span>
           <span class="meal-type">Snack / Lunch</span>
         </div>
         <div class="food-card-body">
@@ -247,11 +306,23 @@
             <strong>凉面 (Liáng Miàn)</strong> — Chilled wheat noodles tossed with sesame paste, chili oil, crushed peanuts, and crunchy toppings. Don't let the quirky name fool you — 猪脑壳 is a Zhangjiajie legend. Their secret sauce recipe has kept locals coming back for years. The ultimate refresher after a sweaty hike.
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=猪脑壳凉面+张家界" target="_blank" class="meta-tag nav-link"><span class="icon">🗺️</span> 永定区南正街212号</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥8-15 (~$1-2)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 10:00-20:00</span>
+            <a href="https://uri.amap.com/search?keyword=猪脑壳凉面+张家界" target="_blank" class="meta-tag nav-link">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区南正街212号
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥8-15 (~$1-2)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              10:00-20:00
+            </span>
           </div>
-          <div class="spice-level">🌶️🌶️ Adjustable — tell them your spice level</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot"></span><span class="spice-dot empty"></span></span>
+            Adjustable — tell them your spice level
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"猪脑壳 has the best cold noodles in Zhangjiajie, hands down. Their sauce recipe is legendary — no one else comes close."</p>
@@ -269,7 +340,7 @@
       <article class="food-card animate-on-scroll" id="card-hotpot">
         <div class="food-card-image">
           <img src="images/card6.webp" alt="Sizzling Hunan-style hot pot with rich broth and fresh ingredients" loading="lazy">
-          <span class="card-badge">🔥 Social Feast</span>
+          <span class="card-badge">Social Feast</span>
           <span class="meal-type">Dinner / Late Night</span>
         </div>
         <div class="food-card-body">
@@ -281,11 +352,23 @@
             <strong>火锅 (Huǒ Guō)</strong> — A bubbling cauldron of rich, spicy broth where you cook fresh meats, vegetables, tofu, and noodles right at your table. 厂花翠翠 is famous for their flavorful base soup and ultra-fresh ingredients. The perfect communal dining experience — bring friends!
           </p>
           <div class="food-card-meta">
-            <a href="https://uri.amap.com/search?keyword=厂花翠翠+张家界" target="_blank" class="meta-tag nav-link"><span class="icon">🗺️</span> 永定区南门口美食街</a>
-            <span class="meta-tag"><span class="icon">💰</span> ¥60-120 (~$8-17)</span>
-            <span class="meta-tag"><span class="icon">⏰</span> 11:00-23:00</span>
+            <a href="https://uri.amap.com/search?keyword=厂花翠翠+张家界" target="_blank" class="meta-tag nav-link">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              永定区南门口美食街
+            </a>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              ¥60-120 (~$8-17)
+            </span>
+            <span class="meta-tag">
+              <svg class="icon-svg icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              11:00-23:00
+            </span>
           </div>
-          <div class="spice-level">🌶️🌶️🌶️ Spicy — get 鴛鸯锅 (half-spicy) if you want both mild and spicy</div>
+          <div class="spice-level">
+            <span class="spice-dots"><span class="spice-dot"></span><span class="spice-dot"></span><span class="spice-dot"></span></span>
+            Spicy — get 鸳鸯锅 (half-spicy) if you want both mild and spicy
+          </div>
           <div class="food-card-reviews">
             <div class="review">
               <p class="review-text">"厂花翠翠's broth is next level. We come here every week — it's become our family tradition."</p>
@@ -307,7 +390,9 @@
   <section class="tip-section animate-on-scroll" data-section>
     <div class="tip-container">
       <div class="tip-story">
-        <div class="tip-icon">🏔️</div>
+        <div class="tip-icon-wrap">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M8 21l4-10 4 10M3 21l4.5-14L12 11l4.5-4L21 21"/></svg>
+        </div>
         <h2>Why I Made This Guide</h2>
         <p class="tip-narrative">
           Every year, millions of travelers visit Zhangjiajie — one of the most beautiful places on Earth.<br>
@@ -319,33 +404,36 @@
         </p>
         <div class="tip-impact">
           <div class="impact-item">
-            <span class="impact-icon">🙅</span>
+            <span class="impact-icon"><svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg></span>
             <span>No ads. No sponsors. No tracking.</span>
           </div>
           <div class="impact-item">
-            <span class="impact-icon">🌍</span>
+            <span class="impact-icon"><svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
             <span>Free for every traveler, forever.</span>
           </div>
           <div class="impact-item">
-            <span class="impact-icon">💛</span>
+            <span class="impact-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
             <span>Your support keeps this guide alive & updated.</span>
           </div>
         </div>
       </div>
       <button class="tip-btn" id="tip-btn">
-        <span class="btn-heart">❤️</span> Support This Project
+        <svg class="icon-svg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        Support This Project
       </button>
-      <p class="tip-subtext">Any amount makes a difference · You decide what it's worth to you 🙏</p>
+      <p class="tip-subtext">Any amount makes a difference · You decide what it's worth to you</p>
     </div>
   </section>
 
   <!-- ===== USEFUL PHRASES ===== -->
   <section class="how-it-works animate-on-scroll" style="margin-top: 8px;">
     <h2>Useful Phrases at Restaurants</h2>
-    <p class="phrases-hint">🔊 Tap any phrase to hear the pronunciation</p>
+    <p class="phrases-hint">Tap any phrase to hear the pronunciation</p>
     <div class="how-steps">
       <div class="how-step phrase-card" data-speak="微辣" role="button" tabindex="0">
-        <div class="step-icon">🗣️</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </div>
         <div class="step-info">
           <h4>微辣 <span class="pinyin">(Wēi Là)</span></h4>
           <p>"Mild spice" — Say this to turn down the heat on any dish.</p>
@@ -355,7 +443,9 @@
         </button>
       </div>
       <div class="how-step phrase-card" data-speak="好吃" role="button" tabindex="0">
-        <div class="step-icon">🗣️</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </div>
         <div class="step-info">
           <h4>好吃! <span class="pinyin">(Hǎo Chī!)</span></h4>
           <p>"Delicious!" — Use this and the chef will love you forever.</p>
@@ -365,7 +455,9 @@
         </button>
       </div>
       <div class="how-step phrase-card" data-speak="买单" role="button" tabindex="0">
-        <div class="step-icon">🗣️</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </div>
         <div class="step-info">
           <h4>买单 <span class="pinyin">(Mǎi Dān)</span></h4>
           <p>"Check please" — Raise your hand and say this when you're done.</p>
@@ -375,7 +467,9 @@
         </button>
       </div>
       <div class="how-step phrase-card" data-speak="不要辣" role="button" tabindex="0">
-        <div class="step-icon">🗣️</div>
+        <div class="step-icon">
+          <svg class="icon-svg" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </div>
         <div class="step-info">
           <h4>不要辣 <span class="pinyin">(Bú Yào Là)</span></h4>
           <p>"No spice" — For when your taste buds need a break.</p>
@@ -390,11 +484,14 @@
   <!-- ===== FEEDBACK SECTION ===== -->
   <section class="feedback-section animate-on-scroll" data-section>
     <div class="feedback-container">
-      <div class="feedback-icon">💌</div>
-      <h2>I'd Love to Hear From You!</h2>
+      <div class="feedback-icon-wrap">
+        <svg class="icon-svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </div>
+      <h2>I'd Love to Hear From You</h2>
       <p>Did you try one of these spots? Or maybe you just want to share a picture of your amazing meal?</p>
       <a href="mailto:wangzhenyan0417@gmail.com?subject=Zhangjiajie%20Food%20Feedback" class="email-btn">
-        <span class="icon">✉️</span> Drop me an email
+        <svg class="icon-svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Drop me an email
       </a>
       <p class="feedback-email">wangzhenyan0417@gmail.com</p>
     </div>
@@ -402,7 +499,7 @@
 
   <!-- ===== DISCLAIMER ===== -->
   <section class="disclaimer animate-on-scroll">
-    <span class="disclaimer-badge">📋 Transparency</span>
+    <span class="disclaimer-badge">Transparency</span>
     <p>
       <strong>Full Disclosure:</strong> We have NO commercial relationships with any restaurant listed on this page. No restaurant has paid to be listed, and none know they are featured here. All recommendations are based entirely on genuine experiences from local residents and international travelers.
     </p>
@@ -414,8 +511,8 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <p>
-      Made with <span class="heart">❤️</span> by a Zhangjiajie local<br>
-      <span style="font-size: 0.65rem; opacity: 0.6;">Because you deserve better than fast food. 🏔️</span>
+      Made with <span class="heart-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span> by a Zhangjiajie local<br>
+      <span class="footer-sub">Because you deserve better than fast food.</span>
     </p>
   </footer>
 
@@ -432,7 +529,9 @@
   <div class="modal-overlay" id="tip-modal">
     <div class="modal">
       <div class="modal-header">
-        <span class="modal-emoji">🏔️</span>
+        <div class="modal-icon-wrap">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M8 21l4-10 4 10M3 21l4.5-14L12 11l4.5-4L21 21"/></svg>
+        </div>
         <h3>Support a Local's Mission</h3>
         <p>Help keep authentic food culture accessible to every traveler</p>
       </div>
@@ -449,10 +548,10 @@
       </div>
 
       <a href="https://www.paypal.com/ncp/payment/6DNCYETV5ZE26" target="_blank" class="modal-support-btn" id="modal-support-btn">
-        <span class="btn-heart-pulse">❤️</span>
+        <svg class="icon-svg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
         Support This Guide
       </a>
-      <p class="modal-support-note">Choose any amount you'd like · Secured by PayPal 🔒</p>
+      <p class="modal-support-note">Choose any amount you'd like · Secured by PayPal</p>
 
       <button class="btn-cancel" id="btn-cancel">
         Maybe next time
